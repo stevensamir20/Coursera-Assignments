@@ -1,0 +1,74 @@
+/* NAVBAR STYLES */
+.navbar {
+    background-color: grey;
+    border: 2px solid black;
+    border-radius: 0;
+}
+.navbar-brand h1 {          /* Restaurant name */
+    font-family: 'sans-serif', serif;
+    color: black;
+    font-size: 2em;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px rgb(32, 32, 32);
+    margin-top: -10px;
+    margin-bottom: 0px;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: none;
+    color: black;
+}
+.navbar-nav {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    float: none;
+}
+.navbar-default .navbar-nav>li>a {
+    color: black;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+.navbar-toggle{
+    margin: -40px auto;
+    background-color: black;
+}
+.navbar .navbar-collapse {
+    text-align: center;
+}
+.border-top{
+    border-top: 2px solid black;
+}
+/* END NAVBAR STYLES */
+
+/* BODY STYLES */
+.container {
+    margin-top:50px;
+}
+.row{
+    margin-top: -20px;
+    margin-bottom: 20px;
+}
+section {
+    background-color: grey;
+    margin-top: 30px;
+    overflow: auto;
+    padding: 0px 20px;
+}
+h2, h3{
+    font-size: 2.7em;
+    font-weight: bold;
+    float: none;
+    color: black;
+}
+h3{
+    font-size: 2em;
+    margin-top: 10px;
+}
+p {
+    font-size: 18px;
+    font-family: 'Oxygen', sans-serif;
+    color: black;
+}
+p>a:hover, p>a:visited, p>a:focus {
+    color: darkblue;
+}
+/* END BODY STYLES */
